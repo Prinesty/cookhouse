@@ -1,0 +1,32 @@
+.jumbotron {
+  background-image: url("../images/jumbo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbo {
+  color: #fff;
+}
+
+.jumbo h1 {
+  font-family: cursive;
+}
+
+.contact a .fab,
+.contact a .fas {
+  color: #fff;
+}
+
+.blockquote::before {
+  content: open-quote;
+}
+.blockquote::after {
+  content: close-quote;
+}
+
+.ceo img {
+  height: 40%;
+  width: 40%;
+  border-radius: 50%;
+}
