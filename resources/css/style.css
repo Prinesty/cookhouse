@@ -18,6 +18,11 @@
   color: #fff;
 }
 
+.social a .fab,
+.social a .fas {
+  color: black;
+}
+
 .blockquote::before {
   content: open-quote;
 }
