@@ -12,11 +12,10 @@
   opacity: 0.1;
 }
 
-.blockquote::before {
-  content: open-quote;
-}
-.blockquote::after {
-  content: close-quote;
+.quote1 {
+  position: absolute;
+  right: 20px;
+  opacity: 0.1;
 }
 
 .social i {
