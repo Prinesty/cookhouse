@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Reset Stylesheet -->
     <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
-    
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
@@ -23,11 +23,8 @@
 
         <div class="collapse navbar-collapse" id="navbarT">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item mr-4">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
             <li class="nav-item mr-4 dropdown">
-              <a class="nav-link dropdown-toggle" href="services.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+              <a class="nav-link dropdown-toggle disabled" tabindex="-1" aria-disabled="true" href="services.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
               <div class="dropdown-menu" aria-labelledby="dropdown01">
                 <a class="dropdown-item" href="#">Enterprise</a>
                 <a class="dropdown-item" href="#">Individual</a>
@@ -44,13 +41,16 @@
               </div>
             </li>
             <li class="nav-item mr-4">
-              <a class="nav-link" href="#">Menu</a>
+              <a class="nav-link disabled" tabindex="-1" aria-disabled="true" href="#">Menu</a>
             </li>
             <li class="nav-item mr-4">
               <a class="nav-link" href="price.html">Pricing</a>
             </li>
             <li class="nav-item mr-4 active">
               <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="price.html#delivery"><i class="fas fa-shopping-basket fa-lg"></i></a>
             </li>
           </ul>
         </div>
@@ -85,42 +85,53 @@
       <p>You can also download the CookHouse App on <a href="#">Google Playstore</a> or <a href="#">Apple Store</a></p>
     </div>
 
-
-
-    <footer class="pt-4 my-md-5 pt-md-5 border-top container">
-      <div class="row">
-        <div class="mb-4 col-md col-6">
-          <i class="fas fa-theater-masks fa-5x"></i>
-          <small class="d-block mb-3 text-muted">The CookHouse &copy; 2020</small>
-        </div>
-        <div class="mb-4 col-md col-6">
-          <h5>Events</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Weddings</a></li>
-            <li><a class="text-muted" href="#">Naming Ceremony</a></li>
-            <li><a class="text-muted" href="#">Funeral Service</a></li>
-            <li><a class="text-muted" href="#">Stuff for organizers</a></li>
-          </ul>
-        </div>
-        <div class="col-md col-6">
-          <h5>Partners</h5>
+    <footer class="pt-4 pt-md-5">
+      <div class="text-center mb-5">
+        <h1>Stay in touch</h1>
+        <p>Sign up to stay up-to-date with everything CookHouse.</p>
+        <a class="btn btn-light btn-md disabled font-weight-bold" tabindex="-1" role="button" aria-disabled="true" href="#" target="_blank">Sign up</a>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="mb-4 col-md col-6">
+            <i class="fas fa-theater-masks fa-4x"></i>
+            <small class="d-block mb-3">The CookHouse &copy; 2020</small>
+            <div class="">
+              <a class="px-2" href="https://twitter.com/prinesty" target="_blank"><i class= "fab fa-twitter fa-2x"></i></a>
+              <a class="px-2" href="https://instagram.com/prinesty_som" target="_blank"><i class= "fab fa-instagram fa-2x"></i></a>
+              <a class="px-2" href="https://facebook.com/Prinesty" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+            </div>
+          </div>
+          <div class="mb-4 col-md col-6">
+            <h5>Events</h5>
             <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Rent Logistics</a></li>
-              <li><a class="text-muted" href="#">Nalo Solutions</a></li>
-              <li><a class="text-muted" href="#">Panva Creations</a></li>
-              <li><a class="text-muted" href="#">Sstudios</a></li>
+              <li><a href="#">Weddings</a></li>
+              <li><a href="#">Naming Ceremony</a></li>
+              <li><a href="#">Funeral Service</a></li>
+              <li><a href="#">Stuff for organizers</a></li>
             </ul>
-        </div>
-        <div class="col-md col-6">
+          </div>
+          <div class="col-md col-6">
+            <h5>Partners</h5>
+            <ul class="list-unstyled text-small">
+              <li><a href="#">Rent Logistics</a></li>
+              <li><a href="#">Nalo Solutions</a></li>
+              <li><a href="#">Panva Creations</a></li>
+              <li><a href="#">Sstudios</a></li>
+            </ul>
+          </div>
+          <div class="col-md col-6">
           <h5>About</h5>
             <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="team.html">Team</a></li>
-              <li><a class="text-muted" href="#">Locations</a></li>
-              <li><a class="text-muted" href="#">Privacy</a></li>
-              <li><a class="text-muted" href="#">Terms</a></li>
+              <li><a href="team.html">Team</a></li>
+              <li><a href="#">Locations</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
             </ul>
+          </div>
         </div>
       </div>
+
     </footer>
 
     <!--Optional JavaScript

@@ -15,6 +15,7 @@
   </head>
 
   <body>
+    
     <header>
       <nav class="navbar navbar-expand-md navbar-dark bg-dark static-top">
         <a class="navbar-brand" href="index.html"><i class="fas fa-theater-masks fa-lg"></i> The CookHouse</a>
@@ -24,11 +25,8 @@
 
         <div class="collapse navbar-collapse" id="navbarT">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item mr-4 active">
-              <a class="nav-link" href="index.html">Home  <span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item mr-4 dropdown">
-              <a class="nav-link dropdown-toggle" href="services.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+              <a class="nav-link dropdown-toggle disabled" tabindex="-1" aria-disabled="true" href="services.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
               <div class="dropdown-menu" aria-labelledby="dropdown01">
                 <a class="dropdown-item" href="#">Enterprise</a>
                 <a class="dropdown-item" href="#">Individual</a>
@@ -45,7 +43,7 @@
               </div>
             </li>
             <li class="nav-item mr-4">
-              <a class="nav-link" href="#">Menu</a>
+              <a class="nav-link disabled" tabindex="-1" aria-disabled="true" href="https://www.chef-menus.com/luncheon-menus.html" target="_blank" >Menu</a>
             </li>
             <li class="nav-item mr-4">
               <a class="nav-link" href="price.html">Pricing</a>
@@ -53,17 +51,31 @@
             <li class="nav-item mr-4">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="price.html#delivery"><i class="fas fa-shopping-basket fa-lg"></i></a>
+            </li>
           </ul>
         </div>
+
+
       </nav>
+
+      <nav class="navbar navbar-nav navbar-dark bg-primary covid">
+          <span><a href="covid.html">Evaluate COVID‑19 symptoms and understand next steps <i class="fas fa-angle-right"></i></a></span>
+      </nav>
+
+      <nav class="navbar navbar-nav navbar-light">
+        <span><a href="price.html#delivery">Order online</a> on Thursdays for unbeatable offers</span>
+      </nav>
+
     </header>
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container-fluid">
         <div class="px-3 py-3 pt-md-3 pb-md-3 mx-auto text-center jumbo">
-          <h1 class="display-4">Delivery Service</h1>
-          <p class="lead">Coming Soon</p>
-          <a class="btn btn-info btn-lg" href="price.html#delivery" role="button">Learn more <i class="fas fa-bicycle"></i></a>
+          <h1 class="display-4">Lunch Party</h1>
+          <p class="lead">This and every Sunday at the zone</p>
+          <a class="btn btn-info btn-md disabled" tabindex="-1" role="button" aria-disabled="true" href="#" target="_blank" role="button">Learn more</a>
         </div>
       </div>
     </div>
@@ -95,20 +107,20 @@
         <div class="col-md col-12">
           <h5>Breakfast</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Fudge Brownies</a></li>
-            <li><a class="text-muted" href="#">Beef Luncheon</a></li>
-            <li><a class="text-muted" href="#">Cucumber Tea</a></li>
-            <li><a class="text-muted" href="#">Purry Custard</a></li>
+            <li class="text-muted" href="#">Fudge Brownies</a></li>
+            <li class="text-muted" href="#">Beef Luncheon</a></li>
+            <li class="text-muted" href="#">Cucumber Tea</a></li>
+            <li class="text-muted" href="#">Purry Custard</a></li>
             <li><a class="" href="#">See More</a></li>
           </ul>
         </div>
         <div class="col-md col-12">
           <h5>Brunch</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Kokonte</a></li>
-            <li><a class="text-muted" href="#">Beef Sauce and Rice</a></li>
-            <li><a class="text-muted" href="#">Garnished Palava Sauce</a></li>
-            <li><a class="text-muted" href="#">Gorb3</a></li>
+            <li class="text-muted" href="#">Kokonte</a></li>
+            <li class="text-muted" href="#">Beef Sauce and Rice</a></li>
+            <li class="text-muted" href="#">Garnished Palava Sauce</a></li>
+            <li class="text-muted" href="#">Gorb3</a></li>
             <li><a class="" href="#">See More</a></li>
           </ul>
         </div>
@@ -117,38 +129,38 @@
         <div class="col-md col-12">
           <h5>Dinner Special</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Wine and More</a></li>
-            <li><a class="text-muted" href="#">Red Beef Sauce</a></li>
-            <li><a class="text-muted" href="#">Grilled Jumbo</a></li>
+            <li class="text-muted" href="#">Wine and More</a></li>
+            <li class="text-muted" href="#">Red Beef Sauce</a></li>
+            <li class="text-muted" href="#">Grilled Jumbo</a></li>
             <li><a class="" href="#">See More</a></li>
           </ul>
         </div>
         <div class="col-md col-12">
           <h5>Wine Special</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Brukutu</a></li>
-            <li><a class="text-muted" href="#">Pito Liquid</a></li>
-            <li><a class="text-muted" href="#">Jumbo Boast</a></li>
-            <li><a class="text-muted" href="#">Glyine</a></li>
+            <li class="text-muted" href="#">Brukutu</a></li>
+            <li class="text-muted" href="#">Pito Liquid</a></li>
+            <li class="text-muted" href="#">Jumbo Boast</a></li>
+            <li class="text-muted" href="#">Glyine</a></li>
             <li><a class="" href="#">See More</a></li>
           </ul>
         </div>
       </div>
-      <p class="mt-4"><a class="btn btn-outline-danger btn-lg" href="#" role="button">View Today's Menu</a></p>
+      <p class="mt-4"><a class="btn btn-outline-danger btn-lg" href="https://www.chef-menus.com/luncheon-menus.html" target="_blank" role="button">View Today's Menu</a></p>
     </section>
 
     <section class="container border-top text-center">
       <div class="my-4 pt-md-3 pb-md-3 mx-auto">
-        <h2>Cuisine Gallery</h2>
+        <h2>CookHouse Cuisine</h2>
       </div>
       <div class="row">
         <div class="col-12 col-sm">
           <img class="img-fluid" src="./resources/images/gallery1.png" alt="">
-          <p>Vegetable Pie <small class="text-muted">Popular recipe</small></p>
+          <p>Vegetable Pie</p>
         </div>
         <div class="col-12 col-sm">
           <img class="img-fluid" src="./resources/images/gallery2.png" alt="">
-          <p>Assorted Greenies <small class="text-muted">For vegans</small> </p>
+          <p>Assorted Greenies</p>
         </div>
         <div class="col-12 col-sm">
           <img class="img-fluid" src="./resources/images/gallery3.png" alt="">
@@ -166,48 +178,59 @@
         </div>
         <div class="col-12 col-sm">
           <img class="img-fluid" src="./resources/images/gallery6.png" alt="">
-          <p>Pizza <small class="text-muted">Get one free for orders on Thursdays</small> </p>
+          <p>Pizza</p>
         </div>
       </div>
-      <p class="mt-4"><a class="btn btn-outline-dark btn-lg" href="#" role="button">Click here to learn more</a></p>
+      <h6 class="mt-5">Love the Modernist Cuisine book series? Explore more great products from Modernist Cuisine.</h6>
+      <p class="mt-4"><a class="btn btn-outline-dark btn-lg" href="https://modernistcuisine.com/products/" target="_blank" role="button">Click here to learn more</a></p>
 
     </section>
 
-    <footer class="pt-4 my-md-5 pt-md-5 border-top container">
-      <div class="row">
-        <div class="mb-4 col-md col-6">
-          <i class="fas fa-theater-masks fa-5x"></i>
-          <small class="d-block mb-3 text-muted">The CookHouse &copy; 2020</small>
+    <footer class="pt-4 pt-md-5">
+      <div class="text-center mb-5">
+        <h1>Stay in touch</h1>
+        <p>Sign up to stay up-to-date with everything CookHouse.</p>
+        <a class="btn btn-light btn-md disabled font-weight-bold" tabindex="-1" role="button" aria-disabled="true" href="#" target="_blank">Sign up</a>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="mb-4 col-md col-6">
+            <i class="fas fa-theater-masks fa-4x"></i>
+            <small class="d-block mb-3">The CookHouse &copy; 2020</small>
+            <div class="">
+              <a class="px-2" href="https://twitter.com/prinesty" target="_blank"><i class= "fab fa-twitter fa-2x"></i></a>
+              <a class="px-2" href="https://instagram.com/prinesty_som" target="_blank"><i class= "fab fa-instagram fa-2x"></i></a>
+              <a class="px-2" href="https://facebook.com/Prinesty" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+            </div>
+          </div>
+          <div class="mb-4 col-md col-6">
+            <h5>Events</h5>
+            <ul class="list-unstyled text-small">
+              <li><a href="#">Weddings</a></li>
+              <li><a href="#">Naming Ceremony</a></li>
+              <li><a href="#">Funeral Service</a></li>
+              <li><a href="#">Stuff for organizers</a></li>
+            </ul>
+          </div>
+          <div class="col-md col-6">
+            <h5>Partners</h5>
+            <ul class="list-unstyled text-small">
+              <li><a href="#">Rent Logistics</a></li>
+              <li><a href="#">Nalo Solutions</a></li>
+              <li><a href="#">Panva Creations</a></li>
+              <li><a href="#">Sstudios</a></li>
+            </ul>
+          </div>
+          <div class="col-md col-6">
+          <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a href="team.html">Team</a></li>
+              <li><a href="#">Locations</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="mb-4 col-md col-6">
-          <h5>Events</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Weddings</a></li>
-            <li><a class="text-muted" href="#">Naming Ceremony</a></li>
-            <li><a class="text-muted" href="#">Funeral Service</a></li>
-            <li><a class="text-muted" href="#">Stuff for organizers</a></li>
-          </ul>
-        </div>
-        <div class="col-md col-6">
-          <h5>Partners</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Rent Logistics</a></li>
-            <li><a class="text-muted" href="#">Nalo Solutions</a></li>
-            <li><a class="text-muted" href="#">Panva Creations</a></li>
-            <li><a class="text-muted" href="#">Sstudios</a></li>
-          </ul>
-        </div>
-        <div class="col-md col-6">
-        <h5>About</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="team.html">Team</a></li>
-            <li><a class="text-muted" href="#">Locations</a></li>
-            <li><a class="text-muted" href="#">Privacy</a></li>
-            <li><a class="text-muted" href="#">Terms</a></li>
-          </ul>
-
-        </div>
-
       </div>
 
     </footer>

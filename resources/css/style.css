@@ -31,3 +31,20 @@
   height: 50%;
   right: 0;
 }
+
+.covid a {
+  color: #fff;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+}
+
+footer a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer a:hover {
+  color: rgba(255, 255, 255, 1);
+}
