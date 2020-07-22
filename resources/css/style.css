@@ -1,21 +1,15 @@
 .jumbotron {
-  background-image: url("../images/jumbo.jpg");
+  background-image: url("../images/jumbo1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  color: #ffffff;
 }
 
-.jumbo {
-  color: #fff;
-}
-
-.jumbo h1 {
-  font-family: cursive;
-}
-
-.social a .fab,
-.social a .fas {
-  color: black;
+.quote {
+  position: absolute;
+  left: 20px;
+  opacity: 0.1;
 }
 
 .blockquote::before {
@@ -25,8 +19,22 @@
   content: close-quote;
 }
 
+.social i {
+  color: black;
+}
+
 .ceo img {
-  height: 40%;
-  width: 40%;
   border-radius: 50%;
+}
+
+.view {
+  position: absolute;
+  height: 50%;
+  right: 0;
+}
+
+.view1 {
+  position: absolute;
+  height: 50%;
+  left: 0;
 }
