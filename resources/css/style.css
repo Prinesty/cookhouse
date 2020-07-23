@@ -52,3 +52,10 @@ footer a:hover {
 .bar {
   font-size: 14px;
 }
+
+.isdisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
