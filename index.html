@@ -3,229 +3,269 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <!-- Metadata to ensure proper rendering and touch zooming on devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Meta name Description is an HTML element that summarizes your web page. -->
+    <meta name="description" content="">
+    <!-- To give credit to the person of company that made your website -->
+    <meta name="author" content="Prinesty">
+    <!-- Page Title-->
+    <title>CookHouse - Your favourite restaurant</title>
+
     <!-- Reset Stylesheet -->
     <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&family=Rancho&display=swap" rel="stylesheet">
+    <!--Favicon -->
+    <link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="resources/images/favicon.ico" type="image/x-icon">
+    <!-- Custom Stylesheet -->
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-    <title>Home - CookHouse</title>
-  </head>
+    </head>
 
   <body>
 
     <header>
+
       <nav class="navbar navbar-expand-md navbar-dark bg-dark static-top">
-        <a class="navbar-brand" href="index.html"><i class="fas fa-theater-masks fa-lg"></i></a>
+        <a class="navbar-brand" href="index.html">CookHouse</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarT" aria-controls="navbarT" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarT">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item mr-4 dropdown">
-              <a class="nav-link dropdown-toggle disabled" tabindex="-1" aria-disabled="true" href="services.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown01">
-                <a class="dropdown-item" href="#">Enterprise</a>
-                <a class="dropdown-item" href="#">Individual</a>
-                <a class="dropdown-item" href="#">Event</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Reservations</a>
-              </div>
-            </li>
-            <li class="nav-item mr-4 dropdown">
-              <a class="nav-link dropdown-toggle" href="team.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">The Team</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown01">
-                <a class="dropdown-item" href="about.html">About CookHouse</a>
-                <a class="dropdown-item" href="team.html">Meet the Team</a>
-              </div>
+            <li class="nav-item mr-4 active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item mr-4">
-              <a class="nav-link disabled" tabindex="-1" aria-disabled="true" href="https://www.chef-menus.com/luncheon-menus.html" target="_blank" >Menu</a>
+              <a class="nav-link" href="price.html">Menu</a>
             </li>
             <li class="nav-item mr-4">
-              <a class="nav-link" href="price.html">Pricing</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item mr-4">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
-            <li class="nav-item mr-4">
-              <a class="nav-link" href="price.html#delivery"><i class="fas fa-shopping-basket fa-lg"></i></a>
-            </li>
           </ul>
+
+          <a href="login.html"><button class="btn btn-md btn-danger mr-4" type="submit">Sign in</button></a>
         </div>
-
       </nav>
 
-      <nav class="navbar navbar-nav navbar-dark bg-primary covid container-fluid">
-        <span class="text-center bar"><a href="covid.html">Evaluate COVID‑19 symptoms <i class="fas fa-angle-right"></i></a></span>
+      <nav class="navbar navbar-nav navbar-dark bg-primary covid container-fluid sub-header">
+        <span class="text-center"><a href="covid.html">Updates on Covid-19 in Ghana <i class="fas fa-angle-right"></i></a></span>
       </nav>
 
-      <nav class="navbar navbar-nav navbar-light container-fluid">
-        <span class="text-center bar"><a href="price.html#delivery">Order online</a> on Thursdays for unbeatable offers</span>
+      <nav class="navbar navbar-nav navbar-light container-fluid sub-header">
+        <span class="text-center"><a href="price.html#delivery">Order online</a> on Weekends for unbeatable offers</span>
       </nav>
+
     </header>
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container-fluid">
-        <div class="px-3 py-3 pt-md-3 pb-md-3 mx-auto text-center jumbo">
-          <h1 class="display-4 font-weight-bold">CookHouse</h1>
-          <p class="lead">Tasty to the last bite...</p>
-
+        <div class="p-5 mx-auto text-center">
+          <img class="img-fluid" src="resources/images/CookHouse-02.png" width="200" height="200" alt="">
+          <h5 class="display-4">#TastyToTheLastBite...</h5>
+          <p class="pt-4"><a class="btn btn-outline-danger btn-lg" href="price.html" role="button">Check Out Our Menu</a></p>
         </div>
       </div>
     </div>
 
     <section class="container ceo border-bottom">
-      <div class="px-3 py-3 pt-md-3 pb-md-3 mx-auto text-center">
-        <h2>Meet the Owner, Miller</h2>
-        <img class="my-2 img-fluid" src="./resources/images/chef.png" alt="">
+
+      <div class="p-3 text-center">
+        <h2>Meet the Owner</h2>
+        <div class="dash mx-auto my-3"></div>
+        <img class="py-3 img-fluid" src="./resources/images/chef.png" alt="">
+        <h5>Sir Miller</h5>
       </div>
+
       <div class="text-center mb-5">
         <blockquote class="blockquote">
           <i class="fas fa-quote-left fa-3x quote"></i>
           <span>Our Menu is based upon locally sourced and seasonably available products.<br>
             The best organic food is what's grown closest to you - and it's tasty to
-             the last bite! Come taste for yourself</span>
-             <i class="fas fa-quote-right fa-3x quote1"></i>
+             the last bite! Come taste for yourself
+           </span>
+          <i class="fas fa-quote-right fa-3x quote1"></i>
         </blockquote>
       </div>
-      <div class="text-right">
+
+      <div class="text-right team">
         <p><a href="team.html">Meet The CookHouse Team <i class="fas fa-users"></i></a></p>
       </div>
+
     </section>
 
-    <section class="container text-center">
-      <h2 class="pt-5 pb-3">Recipes</h2>
-      <p class="lead mb-3">Specifically curated with healthy options</p>
+    <section class="container border-top text-center meals">
+
+      <h2 class="pt-5">We Recommend</h2>
+      <div class="dash mx-auto my-3"></div>
+
+      <p class="mb-5">There’s no end to our imagination at CookHouse. <br>This recommedation is specifically curated with healthy options</p>
       <img class="img-fluid view" src="./resources/images/ab1.jpg" alt="">
-      <div class="row mx-5">
-        <div class="col-md col-12">
+
+      <div class="row">
+        <div class="col-md-6 mb-4">
           <h5>Breakfast</h5>
-          <ul class="list-unstyled text-small">
-            <li class="text-muted" href="#">Fudge Brownies</a></li>
-            <li class="text-muted" href="#">Beef Luncheon</a></li>
-            <li class="text-muted" href="#">Cucumber Tea</a></li>
-            <li class="text-muted" href="#">Purry Custard</a></li>
+          <ul class="list-unstyled">
+            <li><a class="text-dark" href="#">Batter Fried Fish With Cheese Sauce</a></li>
+            <li><a class="text-dark" href="#">Baked Spinach With Mushroom And Cheese Sauce</a></li>
+            <li><a class="text-dark" href="#">Baked Mushrooms And Spinach</a></li>
+            <li><a class="text-dark" href="#">Yorkshire Lamb Patties</a></li>
             <li><a class="isdisabled" href="#">See More</a></li>
           </ul>
         </div>
-        <div class="col-md col-12">
-          <h5>Brunch</h5>
-          <ul class="list-unstyled text-small">
-            <li class="text-muted" href="#">Kokonte</a></li>
-            <li class="text-muted" href="#">Beef Sauce and Rice</a></li>
-            <li class="text-muted" href="#">Garnished Palava Sauce</a></li>
-            <li class="text-muted" href="#">Gorb3</a></li>
+        <div class="col-md-6 mb-4">
+          <h5>BBQs</h5>
+          <ul class="list-unstyled">
+            <li><a class="text-dark" href="#">Grilled Chicken In Mustard Sauce</a></li>
+            <li><a class="text-dark" href="#">Coronation Chicken</a></li>
+            <li><a class="text-dark" href="#">Rosemary Chicken</a></li>
+            <li><a class="text-dark" href="#">BLT Eggy Bread</a></li>
+            <li><a class="text-dark" href="#">Roesti And Salad</a></li>
             <li><a class="isdisabled" href="#">See More</a></li>
           </ul>
         </div>
       </div>
-      <div class="row mx-5">
-        <div class="col-md col-12">
-          <h5>Dinner Special</h5>
-          <ul class="list-unstyled text-small">
-            <li class="text-muted" href="#">Wine and More</a></li>
-            <li class="text-muted" href="#">Red Beef Sauce</a></li>
-            <li class="text-muted" href="#">Grilled Jumbo</a></li>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <h5>Salads and Sandwiches</h5>
+          <img class="img-fluid" src="./resources/images/ab2.jpg" width="276" height="183" alt="">
+          <ul class="list-unstyled">
+            <li><a class="text-dark" href="#">Peppered Pasta Salad</a></li>
+            <li><a class="text-dark" href="#">Baked Potato And Aubergines</a></li>
+            <li><a class="text-dark" href="#">Baked Mushrooms And Spinach</a></li>
+            <li><a class="text-dark" href="#">Khao Soi</a></li>
             <li><a class="isdisabled" href="#">See More</a></li>
           </ul>
         </div>
-        <div class="col-md col-12">
+        <div class="col-md-6 mb-4">
           <h5>Wine Special</h5>
-          <ul class="list-unstyled text-small">
-            <li class="text-muted" href="#">Brukutu</a></li>
-            <li class="text-muted" href="#">Pito Liquid</a></li>
-            <li class="text-muted" href="#">Jumbo Boast</a></li>
-            <li class="text-muted" href="#">Glyine</a></li>
+          <img class="img-fluid" src="./resources/images/ab3.jpg" alt="">
+          <ul class="list-unstyled">
+            <li><a class="text-dark" href="#">Rejoice Suns</a></li>
+            <li><a class="text-dark" href="#">Crystal Clear</a></li>
+            <li><a class="text-dark" href="#">Cider Wine</a></li>
+            <li><a class="text-dark" href="#">Boobski</a></li>
             <li><a class="isdisabled" href="#">See More</a></li>
           </ul>
         </div>
       </div>
-      <p class="mt-4"><a class="btn btn-outline-danger btn-lg" href="https://www.chef-menus.com/luncheon-menus.html" target="_blank" role="button">View Today's Menu</a></p>
-    </section>
-
-    <section class="container border-top text-center">
-      <div class="my-4 pt-md-3 pb-md-3 mx-auto">
-        <h2>CookHouse Cuisine</h2>
-      </div>
-      <div class="row">
-        <div class="col-12 col-sm">
-          <img class="img-fluid" src="./resources/images/gallery1.png" alt="">
-          <p>Vegetable Pie</p>
-        </div>
-        <div class="col-12 col-sm">
-          <img class="img-fluid" src="./resources/images/gallery2.png" alt="">
-          <p>Assorted Greenies</p>
-        </div>
-        <div class="col-12 col-sm">
-          <img class="img-fluid" src="./resources/images/gallery3.png" alt="">
-          <p>Cousera Brunch</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-sm">
-          <img class="img-fluid" src="./resources/images/gallery4.png" alt="">
-          <p>Floral Service</p>
-        </div>
-        <div class="col-12 col-sm">
-          <img class="img-fluid" src="./resources/images/gallery5.png" alt="">
-          <p>Bouquet Package</p>
-        </div>
-        <div class="col-12 col-sm">
-          <img class="img-fluid" src="./resources/images/gallery6.png" alt="">
-          <p>Pizza</p>
-        </div>
-      </div>
-      <h6 class="mt-5">Love the Modernist Cuisine book series? Explore more great products from Modernist Cuisine.</h6>
-      <p class="mt-4"><a class="btn btn-outline-dark btn-lg" href="https://modernistcuisine.com/products/" target="_blank" role="button">Click here to learn more</a></p>
+      <p class="py-4"><a class="btn btn-outline-danger btn-lg" href="price.html" role="button">Check Out Our Full Menu</a></p>
 
     </section>
 
-    <footer class="pt-4 pt-md-5">
-      <div class="text-center mb-5">
-        <h1>Stay in touch</h1>
-        <p>Sign up to stay up-to-date with everything CookHouse.</p>
-        <a class="btn btn-light btn-md disabled font-weight-bold" tabindex="-1" role="button" aria-disabled="true" href="#" target="_blank">Sign up</a>
+    <section class="container border-top border-bottom text-center cuisine">
+
+      <div class="pt-5">
+        <h2>Cuisine Gallery</h2>
+        <div class="dash mx-auto my-3"></div>
+
       </div>
-      <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-5">
+          <img class="img-fluid" src="./resources/images/mc1.jpg" alt="">
+          <h5>CookHouse Cuisine Calendar</h5>
+          <p>The 2020 Modernist Cuisine calendar features 18 new images by Nathan Myhrvold. Every image is part of the collection of limited edition artwork at Modernist Cuisine Gallery.</p>
+        </div>
+        <div class="col-md-6">
+          <img class="img-fluid" src="./resources/images/mc2.jpg" alt="">
+          <h5>CookHouse Pizza Calendar</h5>
+          <p>Each photograph in the 2020 Modernist Pizza calendar tells a story about America’s favorite food. The photos are a glimpse inside the team’s next project: Modernist Pizza.</p>
+        </div>
+      </div>
+      <h6 class="mt-4">Love the CookHouse Cuisine book series? Explore more great products from CookHouse Cuisine.</h6>
+      <p class="py-4"><a class="btn btn-outline-danger btn-lg" href="https://modernistcuisine.com/products/" target="_blank" role="button">Click here to learn more</a></p>
+
+    </section>
+
+    <section class="container-fluid text-center">
+
+      <h2 class="pt-5">Services</h2>
+      <div class="dash mx-auto my-3"></div>
         <div class="row">
-          <div class="mb-4 col-md col-6">
-            <i class="fas fa-theater-masks fa-4x"></i>
-            <small class="d-block mb-3">The CookHouse &copy; 2020</small>
+          <div class="col-md col-12">
+            <img class="img-fluid" src="resources/images/1.jpg" alt="">
+            <h5>Dine-in</h5>
+            <p class="text-muted">Sit down, relax and enjoy at any of our locations</p>
+            <p class="py-2"><a class="btn btn-outline-danger btn-lg" href="#" target="_blank" role="button">Locate Us</a></p>
+          </div>
+
+          <div class="col-md col-12">
+            <img class="img-fluid" src="resources/images/2.jpg" alt="">
+           <h5>Takeaway</h5>
+            <p class="text-muted">Consume your food at your preferred location</p>
+            <p class="py-2"><a class="btn btn-outline-danger btn-lg" href="#" target="_blank" role="button">Learn more</a></p>
+          </div>
+
+          <div class="col-md col-12">
+            <img class="img-fluid" src="resources/images/3.png" alt="">
+            <h5>Delivery</h5>
+            <p class="text-muted">Place an order online at your comfort</p>
+            <p class="py-2"><a class="btn btn-outline-danger btn-lg" href="#" target="_blank" role="button">Place an order</a></p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer>
+
+      <div class="text-center py-5">
+        <h2>Stay in touch</h2>
+        <p>Subscribe to stay up-to-date with everything CookHouse.</p>
+        <div class="newsletter mx-auto">
+      		<input type="text" class="input" placeholder="Enter Your Email">
+          <a class="btn btn-light btn-md disabled font-weight-bold mt-2" tabindex="-1" role="button" aria-disabled="true" href="#" target="_blank">Subscribe</a>
+      	</div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="mb-4 col-sm-3">
+            <img class="img-fluid" src="resources/images/CookHouse-03.png" width="100" height="100" alt="">
+            <small class="d-block mb-3">CookHouse &copy; 2020</small>
             <div class="">
               <a class="px-2" href="https://twitter.com/prinesty" target="_blank"><i class= "fab fa-twitter fa-2x"></i></a>
               <a class="px-2" href="https://instagram.com/prinesty_som" target="_blank"><i class= "fab fa-instagram fa-2x"></i></a>
               <a class="px-2" href="https://facebook.com/Prinesty" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
             </div>
           </div>
-          <div class="mb-4 col-md col-6">
-            <h5>Events</h5>
-            <ul class="list-unstyled text-small">
-              <li><a href="#">Weddings</a></li>
-              <li><a href="#">Naming Ceremony</a></li>
-              <li><a href="#">Funeral Service</a></li>
-              <li><a href="#">Stuff for organizers</a></li>
+
+          <div class="mb-4 col-sm-3">
+            <h5>Specials</h5>
+            <ul class="text-small">
+              <li><a href="price.html#breakfast">Breakfast</a></li>
+              <li><a href="price.html#bbq">BBQs</a></li>
+              <li><a href="price.html#ss">Salads and Sandwiches</a></li>
+              <li><a href="#">Wine Collection</a></li>
             </ul>
           </div>
-          <div class="col-md col-6">
-            <h5>Partners</h5>
-            <ul class="list-unstyled text-small">
-              <li><a href="#">Rent Logistics</a></li>
-              <li><a href="#">Nalo Solutions</a></li>
-              <li><a href="#">Panva Creations</a></li>
-              <li><a href="#">Sstudios</a></li>
+
+          <div class="mb-4 col-sm-3">
+            <h5>Services</h5>
+            <ul class="text-small">
+              <li><a href="#">Dine-in</a></li>
+              <li><a href="#">Takeaway</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Reservations</a></li>
             </ul>
           </div>
-          <div class="col-md col-6">
-          <h5>About</h5>
-            <ul class="list-unstyled text-small">
-              <li><a href="team.html">Team</a></li>
+
+          <div class="col-sm-3">
+            <h5>About</h5>
+            <ul class="text-small">
+              <li><a href="team.html">Meet the Team</a></li>
+              <li><a href="about.html">Our Story</a></li>
               <li><a href="#">Locations</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Terms</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
             </ul>
           </div>
         </div>
@@ -236,7 +276,8 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
+
 </html>

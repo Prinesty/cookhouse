@@ -1,9 +1,24 @@
+.navbar-brand,
+h5 {
+  font-family: 'Rancho', cursive;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 40px;
+}
+
+.dash {
+  border: 1px solid #dc3545;
+  width: 200px;
+}
+
 .jumbotron {
-  background-image: url("../images/jumbo1.jpg");
+  background-image: url("../images/bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #ffffff;
 }
 
 .quote {
@@ -18,6 +33,10 @@
   opacity: 0.1;
 }
 
+.team a:hover {
+  color: #dc3545;
+}
+
 .social i {
   color: black;
 }
@@ -28,8 +47,13 @@
 
 .view {
   position: absolute;
-  height: 50%;
+  height: 60%;
   right: 0;
+}
+.view1 {
+  position: absolute;
+  height: 20%;
+  left: 0;
 }
 
 .covid a {
@@ -49,8 +73,8 @@ footer a:hover {
   color: rgba(255, 255, 255, 1);
 }
 
-.bar {
-  font-size: 14px;
+.sub-header {
+  font-size: 15px;
 }
 
 .isdisabled {
@@ -58,4 +82,72 @@ footer a:hover {
   cursor: not-allowed;
   opacity: 0.5;
   text-decoration: none;
+}
+
+.meals ul li {
+  padding: 5px;
+}
+
+.newsletter {
+	max-width: 400px;
+	width: 100%;
+}
+
+.newsletter .input{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+.cuisine p {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.new-customer a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.form-box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url("../images/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
